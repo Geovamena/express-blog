@@ -6,7 +6,7 @@ require('../middlewares/auth.middleware')(passport)
 
 
 router.route('/')
-    //.get()
+    .get(postServices.getAllPosts)
     .post(
         passport.authenticate('jwt', {session: false}),
         postServices.createPost
