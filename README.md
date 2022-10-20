@@ -36,3 +36,22 @@
     }
 
 ```
+
+/api/v1
+
+/users
+    - /me
+    - /me/posts
+    - /me/posts/:id
+    - /:id
+
+/categories
+    - /:id
+    - /:id/posts
+
+/posts
+    - /:id
+
+
+
+
