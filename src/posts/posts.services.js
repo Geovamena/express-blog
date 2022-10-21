@@ -36,11 +36,22 @@ const createPost = (req, res) => {
 
 }
 
+const getPostsByCategory = (req, res) => {
+    const categoryId = req.params.id 
+    postControllers.getPostsByCategory(categoryId)
+        .then(data => {
+            res.status(200).json(data)
+        })
+        .catch(err => {
+            res.status(400).json({message: err.message})
+        })
+}
 
 
 
 
 module.exports = {
     createPost,
-    getAllPosts
+    getAllPosts,
+    getPostsByCategory
 }
