@@ -16,8 +16,8 @@ const getAllPosts = async() => {
                 attributes: ['id', 'firstName', 'lastName', 'email']
             },
             {
-                model: Categories,
-                as: 'category'
+
+                model: Categories
             }
         ]
     })
