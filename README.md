@@ -54,4 +54,11 @@
 
 
 
+1.0.5
+
+0.0.5 = Sulucion de bugs
+
+0.5.0 = Agregar pequeñas funcionalidades
+
+5.0.0 = Agregar funcionalidades mas completas que requieren cambios grandes en la app y su funcionamiento
 
