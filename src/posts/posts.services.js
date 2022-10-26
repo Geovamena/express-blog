@@ -17,13 +17,15 @@ const getAllPosts = (req, res) => {
 
             //* posts?offset=20&limit=10
             //? length 33
-            //? offset 20
+            //? offset 8
             //? limit 10
 
             const nextPage = data.count - offset >= limit ? `${urlBase}?offset=${offset + limit}&limit=${limit}` : null
+            const prevPage = offset - limit >= 0 ? `${urlBase}?offset=${offset-limit}&limit=${limit}` : null
+            
             res.status(200).json({
                 next: nextPage ,
-                prev: `${urlBase}`,
+                prev: prevPage,
                 items: data.count,
                 offset,
                 limit,
