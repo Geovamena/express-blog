@@ -24,8 +24,8 @@
                "content" : "lorem ipsum",
                "createdBy": {
                     "id" : "5b7cc060-3597-4946-bb9b-3a54e2098f82",
-                    "name" : "Sahid",
-                    "email" : "sahid.kick@academlo.com"
+                    "name" : "Geovanni",
+                    "email" : "Geovanni@academlo.com"
                },
                "category" :{
                     "id" :4,
