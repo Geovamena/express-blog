@@ -39,6 +39,7 @@ const Posts = db.define('posts', {
 })
 
 
+
 module.exports = Posts
 
 

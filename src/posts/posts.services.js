@@ -76,7 +76,6 @@ const getPostsByCategory = (req, res) => {
 
 
 
-
 module.exports = {
     createPost,
     getAllPosts,

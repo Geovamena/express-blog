@@ -11,7 +11,4 @@ router.get('/:id', categoryServices.getCategoryById)
 
 router.get('/:id/posts', getPostsByCategory)
 
-
 module.exports = router
-
-
